@@ -95,21 +95,139 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Globals */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+html {
+	
+}
+
+body {
+	width: 61.25em;
+	margin: 0 auto;
+}
+
+ul {
+	
+}
+
+li {
+	
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	
+}
+
+a:link {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:active {
+	
+}
+
+/* Header */
+
+.page-header {
+	
+}
 
 
+/* Navigation */
 
+.main-nav {
+	height: 7em;
+	
+}
 
+.main-nav ul {
+	
+}
 
+.main-nav li {
+	
+}
 
+.main-nav a:link {
+	
+}
 
+.main-nav a:visited {
+	
+}
 
+.main-nav a:hover {
+	
+}
 
+.main-nav a:active {
+	
+}
 
+/* Content */
 
+.project {
+	
+}
 
+.project img {
+	max-width: 100%;
+}
 
+/* About Section */
+.about {
+	
+}
 
+/* Work Section */
+.work {
+	
+}
 
+/* Footer */
+.page-footer {
+	
+}
 
 /* ==========================================================================
    Helper classes
