@@ -170,6 +170,11 @@ a:active {
 	
 }
 
+figure {
+	margin: 0;
+	padding: 0;
+}
+
 /* Header */
 
 .page-header {
@@ -202,7 +207,6 @@ a:active {
 	background-image: url(img/purple-bg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 }
 
 .hero h1, h2 {
@@ -252,20 +256,44 @@ a:active {
 
 .project {
 	position: relative;
-	border: 1px solid red;
-	width: 28.38rem;
-	height: 21.25rem;
+	width: 28.38em;
+	height: 21.25em;
 	float: left;
-	margin: 0.25rem;
+	padding: 0;
+	margin: 0.25em;
 }
 
 .project img {
 	max-width: 100%;
 }
 
-.project h3 {
+.project-text {
+	font-size: 1.68em;
+	margin: auto;
+	width: 50%;
+	height: 50%;
 	position: absolute;
-	
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	text-align: center;
+}
+
+.project-text h3 {
+	margin: auto;
+	width: 100%;
+	height: 25%;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	color: #fff;
+}
+
+.about, .work {
+	border-bottom: 1px solid #ddd;
 }
 
 /* About Section */
@@ -280,7 +308,12 @@ a:active {
 
 /* Work Section */
 .work {
-	
+	overflow: auto;
+}
+
+.work h2 {
+	color: #000;
+	text-transform: uppercase;
 }
 
 /* Footer */
