@@ -134,6 +134,11 @@ p {
 
 a:link {
 	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #fff;
 }
 
 img {
@@ -200,6 +205,15 @@ img {
 	margin-top: 3.76rem;
 }
 
+.hero h2 a:link {
+	color: #fff;
+}
+
+.hero h2:hover, .hero h2 a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
 .hero-content {
 	position: absolute;
 	top: 50%;
@@ -253,11 +267,11 @@ img {
 	opacity: 1.0;
 }
 
-.project a:link {
+.project:link h3 {
 	color: #000;
 }
 
-.project a:hover {
+.project:hover h3 {
 	color: #fff;
 }
 
