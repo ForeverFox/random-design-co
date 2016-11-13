@@ -222,7 +222,7 @@ a:link {
 
 .project {
 	position: relative;
-	width: 18.16em;
+	max-width: 18.16em;
 	float: left;
 	padding: 0;
 	margin: 0 0.16em 0.16em 0;
