@@ -132,19 +132,14 @@ p {
 	margin: 4.08em 1.12em 2.28em 1.36em; 
 }
 
-a:link {
-	text-decoration: none;
-	color: #000;
-}
-
-a:hover {
-	color: #fff;
-}
-
 img {
 	max-width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+a:link {
+	text-decoration: none;
 }
 
 /* Header */
@@ -232,6 +227,7 @@ img {
 	padding: 0;
 	margin: 0 0.16em 0.16em 0;
 	background-color: hsla(27, 2%, 40%, 0.36);
+	color: #000;
 }
 
 .project img {
@@ -259,21 +255,25 @@ img {
 	margin: 0;
 }
 
+.project a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.project a:hover {
+	color: #fff;
+}
+
 .project img {
 	opacity: 0.3;
+	display: block;
 }
 
 .project:hover img {
+	display: block;
 	opacity: 1.0;
 }
 
-.project:link h3 {
-	color: #000;
-}
-
-.project:hover h3 {
-	color: #fff;
-}
 
 .about, .work {
 	border-bottom: 1px solid #ddd;
