@@ -129,7 +129,7 @@ p {
 }
 
 .container {
-	margin: 4.08em 1.12em 2.28em 1.36em; 
+	margin: 4.08em 1.12em 2.28em 1.36em;
 }
 
 img {
@@ -174,7 +174,6 @@ a:link {
 .hero {
 	position: relative;
 	margin: 0;
-	overflow: auto;
 }
 
 .hero h1, h2 {
@@ -255,12 +254,12 @@ a:link {
 	margin: 0;
 }
 
-.project a:link {
+.project-content a:link {
 	color: #000;
 	text-decoration: none;
 }
 
-.project a:hover {
+.project-content a:hover {
 	color: #fff;
 }
 
@@ -286,18 +285,15 @@ a:link {
 }
 
 /* About Section */
-.about {
-	overflow: auto;
-}
 
 .about p {
-	width: 33.92em;
+	max-width: 33.92em;
 }
 
 /* Work Section */
 .work {
-	overflow: auto;
 	padding-bottom: 2.6em;
+	position: relative;
 }
 
 /* Footer */
