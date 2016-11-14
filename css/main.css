@@ -225,8 +225,6 @@ a:link {
 	float: left;
 	padding: 0;
 	margin: 0 0.16em 0.16em 0;
-	background-color: hsla(27, 2%, 40%, 0.36);
-	color: #000;
 }
 
 .project img {
@@ -237,6 +235,7 @@ a:link {
 	width: 100%;
 	display: block;
 	position: relative;
+	background-color: hsla(27, 2%, 40%, 0.36);
 	z-index: -10;
 }
 
@@ -246,20 +245,22 @@ a:link {
 	left: 50%; 
 	transform: translate(-50%, -50%);
 	text-align: center;
+	color: #fff;
 }
 
-.project h3 {
+.project h3 a:hover {
+	color: #fff;
+}
+
+.project a {
 	font-size: 1em;
 	font-weight: 700;
 	margin: 0;
-}
-
-.project-content a:link {
 	color: #000;
 	text-decoration: none;
 }
 
-.project-content a:hover {
+.project a:hover .project-content {
 	color: #fff;
 }
 
